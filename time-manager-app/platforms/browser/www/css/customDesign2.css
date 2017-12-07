@@ -1,0 +1,57 @@
+#lap-btn{
+	width:80px;
+	height:80px;
+	border-radius:50%;
+	border-style:none;
+	margin-top:33%;
+	margin-left:40%;
+}
+.stop-time{
+	position: absolute;
+	font-size:30pt;
+}
+#stop-hour{
+	margin-top:50px;
+	margin-left:2%;
+}
+#stop-minutes{
+		margin-top:50px;
+	margin-left:24%;
+}
+#stop-seconds{
+		margin-top:50px;
+	margin-left:49%;
+}
+#stop-millis{
+		margin-top:50px;
+	margin-left:70%;
+}
+.lap-result{
+	margin-top:5px;
+	margin-left:15px;
+	width:90%;
+	height:350px;
+	overflow:auto;
+	overflow-x: hidden;
+	background-color:rgba(22,33,45,0.05);
+}
+#lap-list li{
+	font-size:15pt;
+	width:100%;
+	text-align:center;
+	color:rgba(22,33,45,1);
+}
+#modal{
+	position:absolute;
+	display:none;
+	width:100%;
+	height:100%;
+}
+.modal-inner{
+position:absolute;
+	display:block;
+	width:100%;
+	height:100%;
+	background-color:red;
+	color:white;
+}

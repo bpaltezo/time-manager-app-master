@@ -1,0 +1,30 @@
+button{
+	color:blue;
+	font-size: 50px;
+	background-color: red;
+	border:none;
+}
+
+input{
+	font-size: 15px;
+}
+
+.text{
+	font-size: 50px;
+	font-family: 'arial';
+}
+#canvas{
+	width:320px;
+	height:480px;
+	background-color:red;
+}
+.time{
+	position:absolute;
+	width:90%;
+	font-size:65pt;
+	background-color:red;
+}
+.clock-details-container{
+	background-color:red;
+	margin-top:-50%;
+}
